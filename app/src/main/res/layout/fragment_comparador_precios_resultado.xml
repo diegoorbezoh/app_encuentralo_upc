@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".comparador_precios_resultado">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="483dp"
+        android:layout_height="743dp"
+        android:src="@drawable/fondo"
+        tools:layout_editor_absoluteX="-30dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <EditText
+        android:id="@+id/txtResultado1"
+        android:layout_width="314dp"
+        android:layout_height="116dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Mostrar resultado..."
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <EditText
+        android:id="@+id/txtResultado2"
+        android:layout_width="314dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="24dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Mostrar resultado..."
+        app:layout_constraintTop_toBottomOf="@+id/txtResultado1"
+        tools:layout_editor_absoluteX="48dp" />
+
+    <EditText
+        android:id="@+id/txtResultado3"
+        android:layout_width="314dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="24dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Mostrar resultado..."
+        app:layout_constraintTop_toBottomOf="@+id/txtResultado2"
+        tools:layout_editor_absoluteX="48dp" />
+
+    <EditText
+        android:id="@+id/txtResultado4"
+        android:layout_width="314dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="24dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Mostrar resultado..."
+        app:layout_constraintTop_toBottomOf="@+id/txtResultado3"
+        tools:layout_editor_absoluteX="48dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
