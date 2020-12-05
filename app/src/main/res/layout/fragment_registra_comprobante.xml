@@ -63,6 +63,7 @@
         android:layout_width="119dp"
         android:layout_height="40dp"
         android:layout_marginTop="24dp"
+        android:backgroundTint="#FFB700"
         android:text="REGISTRAR"
         app:layout_constraintTop_toBottomOf="@+id/button5"
         tools:layout_editor_absoluteX="233dp" />
@@ -100,6 +101,7 @@
         android:id="@+id/button5"
         android:layout_width="127dp"
         android:layout_height="54dp"
+        android:backgroundTint="#FFB700"
         android:text="TOMAR FOTO"
         tools:layout_editor_absoluteX="225dp"
         tools:layout_editor_absoluteY="428dp" />
@@ -109,6 +111,7 @@
         android:layout_width="115dp"
         android:layout_height="40dp"
         android:layout_marginTop="24dp"
+        android:backgroundTint="#FFB700"
         android:text="REGRESAR"
         app:layout_constraintTop_toBottomOf="@+id/button5"
         tools:layout_editor_absoluteX="71dp" />

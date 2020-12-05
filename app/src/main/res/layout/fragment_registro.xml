@@ -6,6 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".registro">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="422dp"
+        android:layout_height="734dp"
+        android:src="@drawable/registro"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-5dp" />
 
     <Button
         android:id="@+id/button"
@@ -14,19 +21,14 @@
         android:layout_marginStart="60dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="60dp"
+        android:backgroundTint="#FFB700"
         android:text="Aceptar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtEdad" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="422dp"
-        android:layout_height="734dp"
-        android:src="@drawable/registro"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="-5dp" />
+
 
     <TextView
         android:id="@+id/textView"

@@ -7,6 +7,14 @@
     android:layout_height="match_parent"
     tools:context=".inicio">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="425dp"
+        android:layout_height="736dp"
+        android:src="@drawable/inicio"
+        tools:layout_editor_absoluteX="-11dp"
+        tools:layout_editor_absoluteY="-6dp" />
+    />
 
     <Button
         android:id="@+id/btnIngresar"
@@ -14,6 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginEnd="60dp"
+        android:backgroundTint="#FFB700"
         android:text="INGRESAR"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -27,6 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginEnd="60dp"
+        android:backgroundTint="#FFB700"
         android:text="REGISTRAR"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -34,13 +44,6 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="649dp" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="425dp"
-        android:layout_height="736dp"
-        android:src="@drawable/inicio"
-        tools:layout_editor_absoluteX="-11dp"
-        tools:layout_editor_absoluteY="-6dp" />
-    />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

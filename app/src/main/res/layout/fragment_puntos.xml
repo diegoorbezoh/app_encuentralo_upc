@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".puntos">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="747dp"
+        android:src="@drawable/puntos" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="155dp"
+        android:layout_height="122dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="135dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="129dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5"
+        tools:layout_editor_absoluteX="163dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="128dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#FFB700"
+        android:text="REGRESAR"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="611dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

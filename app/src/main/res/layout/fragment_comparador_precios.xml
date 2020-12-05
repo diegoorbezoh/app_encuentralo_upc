@@ -111,6 +111,7 @@
         android:id="@+id/btnBuscar"
         android:layout_width="122dp"
         android:layout_height="48dp"
+        android:backgroundTint="#FFB700"
         android:text="BUSCAR"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="146dp"
