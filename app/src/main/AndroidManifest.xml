@@ -4,11 +4,21 @@
 
     <application
         android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.App_encuentralo">
+        <activity android:name=".Puntos"></activity>
+        <activity android:name=".RegistraComprobante" />
+        <activity android:name=".MenuPuntuacion" />
+        <activity android:name=".ComparadorPreciosResultado1" />
+        <activity android:name=".ComparadorPrecios1" />
+        <activity android:name=".Menu1" />
+        <activity android:name=".registro1" />
+        <activity android:name=".Login1" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

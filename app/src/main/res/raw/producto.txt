@@ -1,0 +1,7 @@
+PV001105;alitas de pollo sadia bolsa 1kg;POLLO;PLAZA VEA;11.6
+MT001105;alitas de pollo sadia bolsa 1kg;POLLO;METRO;11.9
+PV001042;apio x unidad;VEGETALES;PLAZA VEA;1.69
+PV001041;arveja;VEGETALES;PLAZA VEA;5.49
+MT001041;arveja;VEGETALES;METRO;6.29154617715092
+PV001108;baby chicken congelado redondos;POLLO;PLAZA VEA;14.2
+MT001108;baby chicken congelado redondos;POLLO;METRO;14.1468900259937
